@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GunosyMoPubAdapter"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "MoPub Adapter for Gunosy AdNetwork."
 
   s.description  = <<-DESC
@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/gunosy/GunosyAdNetworkMopubSDK-iOS"
   s.license      = { :type => "Copyright", :text => "Copyright (c) Gunosy inc." }
   s.author       = "Gunosy inc."
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
+  s.ios.deployment_target = '9.0'
 
   s.source       = { :git => "https://github.com/gunosy/GunosyAdNetworkMopubSDK-iOS.git", :tag => "#{s.version}" }
   s.source_files  = '*.{h}'
