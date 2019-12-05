@@ -2,12 +2,13 @@
 //  GunosyNativeCustomEvent.h
 //  GunosyAdsSample
 //
-//  Created by yuto.suzuki on 2018/04/24.
 //  Copyright © 2018年 Gunosy inc.,. All rights reserved.
 //
 
 #if __has_include(<MoPub/MoPub.h>)
     #import <MoPub/MoPub.h>
+#elif __has_include(<MoPubSDKFramework/MoPub.h>)
+    #import <MoPubSDKFramework/MoPub.h>
 #else
     #import "MPNativeCustomEvent.h"
 #endif
