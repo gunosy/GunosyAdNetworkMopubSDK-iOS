@@ -2,7 +2,7 @@
 //  GunosyNativeCustomEvent.h
 //  GunosyAdsSample
 //
-//  Copyright © 2018年 Gunosy inc.,. All rights reserved.
+//  Copyright © 2019年 Gunosy inc.,. All rights reserved.
 //
 
 #if __has_include(<MoPub/MoPub.h>)
