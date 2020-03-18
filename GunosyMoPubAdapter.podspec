@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GunosyMoPubAdapter"
-  s.version      = "2.1.0.1"
+  s.version      = "2.1.0.2"
   s.summary      = "MoPub Adapter for Gunosy AdNetwork."
 
   s.description  = <<-DESC
